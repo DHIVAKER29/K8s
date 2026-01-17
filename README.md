@@ -30,18 +30,18 @@ This is not a surface-level tutorial. Each chapter provides:
 | 02 | [Kubernetes Architecture](./02-Kubernetes-Architecture.md) | ✅ Complete | Control plane, nodes, all components |
 | 03 | [Installing Kubernetes](./03-Installing-Kubernetes.md) | ✅ Complete | Minikube, kind, kubeadm, cloud options |
 | 04 | [kubectl Mastery](./04-kubectl-Mastery.md) | ✅ Complete | The essential CLI tool, all commands |
-| 05 | Kubernetes Objects & YAML | ⏳ Pending | Understanding K8s resource definitions |
+| 05 | [Kubernetes Objects & YAML](./05-Objects-and-YAML.md) | ✅ Complete | Understanding K8s resource definitions |
 
 ### Phase 2: Core Workloads
 
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
-| 06 | Pods Deep Dive | ⏳ Pending | The smallest deployable unit |
-| 07 | ReplicaSets | ⏳ Pending | Maintaining pod replicas |
-| 08 | Deployments | ⏳ Pending | Declarative updates, rollouts, rollbacks |
-| 09 | DaemonSets | ⏳ Pending | Running pods on every node |
-| 10 | StatefulSets | ⏳ Pending | Stateful applications |
-| 11 | Jobs & CronJobs | ⏳ Pending | Batch processing |
+| 06 | [Pods Deep Dive](./06-Pods-Deep-Dive.md) | ✅ Complete | The smallest deployable unit |
+| 07 | [ReplicaSets](./07-ReplicaSets.md) | ✅ Complete | Maintaining pod replicas |
+| 08 | [Deployments](./08-Deployments.md) | ✅ Complete | Declarative updates, rollouts, rollbacks |
+| 09 | [DaemonSets](./09-DaemonSets.md) | ✅ Complete | Running pods on every node |
+| 10 | [StatefulSets](./10-StatefulSets.md) | ✅ Complete | Stateful applications |
+| 11 | [Jobs & CronJobs](./11-Jobs-and-CronJobs.md) | ✅ Complete | Batch processing |
 
 ### Phase 3: Networking
 
