@@ -63,30 +63,37 @@ This is not a surface-level tutorial. Each chapter provides:
 
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
-| 20 | RBAC | ⏳ Pending | Role-Based Access Control |
-| 21 | Service Accounts | ⏳ Pending | Pod identities |
-| 22 | Security Contexts | ⏳ Pending | Pod and container security |
-| 23 | Network Policies | ⏳ Pending | Network-level security |
-| 24 | Pod Security Standards | ⏳ Pending | Enforcing security policies |
+| 18 | [RBAC](./18-RBAC.md) | ✅ Complete | Role-Based Access Control, Service Accounts |
+| 19 | [Security Contexts](./19-Security-Contexts.md) | ✅ Complete | Pod and container security settings |
+| 20 | [Pod Security Standards](./20-Pod-Security-Standards.md) | ✅ Complete | Enforcing security policies |
 
 ### Phase 6: Advanced Topics
 
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
-| 25 | Resource Management | ⏳ Pending | Requests, limits, QoS |
-| 26 | Scheduling | ⏳ Pending | Node selection, affinity, taints |
-| 27 | Probes | ⏳ Pending | Liveness, readiness, startup |
-| 28 | Horizontal Pod Autoscaler | ⏳ Pending | Automatic scaling |
-| 29 | Custom Resources (CRDs) | ⏳ Pending | Extending Kubernetes |
+| 21 | [Resource Management](./21-Resource-Management.md) | ✅ Complete | Requests, limits, QoS |
+| 22 | [Scheduling](./22-Scheduling.md) | ✅ Complete | Node selection, affinity, taints |
+| 23 | [Probes](./23-Probes.md) | ✅ Complete | Liveness, readiness, startup |
+| 24 | [Horizontal Pod Autoscaler](./24-HPA.md) | ✅ Complete | Automatic scaling |
+| 25 | [Custom Resources (CRDs)](./25-CRDs.md) | ✅ Complete | Extending Kubernetes |
 
 ### Phase 7: Operations & Troubleshooting
 
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
-| 30 | Logging & Monitoring | ⏳ Pending | Observability in K8s |
-| 31 | Troubleshooting | ⏳ Pending | Debugging pods, nodes, clusters |
-| 32 | Cluster Maintenance | ⏳ Pending | Upgrades, backups, etcd |
-| 33 | CKA Exam Preparation | ⏳ Pending | Tips, practice, resources |
+| 26 | [Logging & Monitoring](./26-Logging-Monitoring.md) | ✅ Complete | Observability in K8s |
+| 27 | [Troubleshooting](./27-Troubleshooting.md) | ✅ Complete | Debugging pods, nodes, clusters |
+| 28 | [Cluster Maintenance](./28-Cluster-Maintenance.md) | ✅ Complete | Upgrades, backups, etcd |
+| 29 | [CKA Exam Preparation](./29-CKA-Exam-Preparation.md) | ✅ Complete | Tips, practice, resources |
+
+### Phase 8: Bonus Topics (CKA + Real-World)
+
+| # | Topic | Status | Description |
+|---|-------|--------|-------------|
+| 30 | [Pod Disruption Budgets](./30-Pod-Disruption-Budgets.md) | ✅ Complete | HA during maintenance (CKA!) |
+| 31 | [Static Pods](./31-Static-Pods.md) | ✅ Complete | Control plane components (CKA!) |
+| 32 | [Helm Basics](./32-Helm-Basics.md) | ✅ Complete | Package manager (real-world essential) |
+| 33 | [Helmfile](./33-Helmfile.md) | ✅ Complete | Declarative multi-release management |
 
 ---
 
@@ -181,11 +188,12 @@ Quick reference for Docker users:
 | Fundamentals | 01-05 | 8-10 hours |
 | Core Workloads | 06-11 | 10-12 hours |
 | Networking | 12-15 | 6-8 hours |
-| Storage | 16-19 | 4-6 hours |
-| Security | 20-24 | 6-8 hours |
-| Advanced | 25-29 | 8-10 hours |
-| Operations | 30-33 | 6-8 hours |
-| **Total** | **33 chapters** | **~50-60 hours** |
+| Storage | 16-17 | 4-6 hours |
+| Security | 18-20 | 4-6 hours |
+| Advanced | 21-25 | 8-10 hours |
+| Operations | 26-29 | 6-8 hours |
+| Bonus Topics | 30-33 | 5-7 hours |
+| **Total** | **33 chapters** | **~55-65 hours** |
 
 ---
 
