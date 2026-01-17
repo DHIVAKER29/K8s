@@ -27,9 +27,9 @@ This is not a surface-level tutorial. Each chapter provides:
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
 | 01 | [Why Kubernetes?](./01-Why-Kubernetes.md) | ✅ Complete | The problems K8s solves, when to use it |
-| 02 | Kubernetes Architecture | ⏳ Pending | Control plane, nodes, all components |
-| 03 | Installing Kubernetes | ⏳ Pending | Minikube, kind, kubeadm, cloud options |
-| 04 | kubectl Mastery | ⏳ Pending | The essential CLI tool, all commands |
+| 02 | [Kubernetes Architecture](./02-Kubernetes-Architecture.md) | ✅ Complete | Control plane, nodes, all components |
+| 03 | [Installing Kubernetes](./03-Installing-Kubernetes.md) | ✅ Complete | Minikube, kind, kubeadm, cloud options |
+| 04 | [kubectl Mastery](./04-kubectl-Mastery.md) | ✅ Complete | The essential CLI tool, all commands |
 | 05 | Kubernetes Objects & YAML | ⏳ Pending | Understanding K8s resource definitions |
 
 ### Phase 2: Core Workloads
