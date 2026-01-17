@@ -47,19 +47,17 @@ This is not a surface-level tutorial. Each chapter provides:
 
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
-| 12 | Services Deep Dive | ⏳ Pending | ClusterIP, NodePort, LoadBalancer |
-| 13 | Ingress | ⏳ Pending | HTTP routing, TLS termination |
-| 14 | Network Policies | ⏳ Pending | Pod-level firewall rules |
-| 15 | DNS in Kubernetes | ⏳ Pending | Service discovery, CoreDNS |
+| 12 | [Services Deep Dive](./12-Services-Deep-Dive.md) | ✅ Complete | ClusterIP, NodePort, LoadBalancer |
+| 13 | [Ingress](./13-Ingress.md) | ✅ Complete | HTTP routing, TLS termination |
+| 14 | [Network Policies](./14-Network-Policies.md) | ✅ Complete | Pod-level firewall rules |
+| 15 | [DNS in Kubernetes](./15-DNS-in-Kubernetes.md) | ✅ Complete | Service discovery, CoreDNS |
 
 ### Phase 4: Storage
 
 | # | Topic | Status | Description |
 |---|-------|--------|-------------|
-| 16 | Volumes | ⏳ Pending | EmptyDir, HostPath, and more |
-| 17 | Persistent Volumes | ⏳ Pending | PV, PVC, StorageClasses |
-| 18 | ConfigMaps | ⏳ Pending | Externalizing configuration |
-| 19 | Secrets | ⏳ Pending | Managing sensitive data |
+| 16 | [Volumes](./16-Volumes.md) | ✅ Complete | EmptyDir, HostPath, PV, PVC, StorageClasses |
+| 17 | [ConfigMaps & Secrets](./17-ConfigMaps-and-Secrets.md) | ✅ Complete | Configuration and sensitive data management |
 
 ### Phase 5: Security
 
